@@ -32,7 +32,7 @@ struct Args {
 }
 
 fn parsed_url(url: &str) -> Result<String> {
-    let parsed_url: Result<Url, ParseError> = Url::parse(&url);
+    let parsed_url: Result<Url, ParseError> = Url::parse(url);
 
     match parsed_url {
         Ok(url) => {
