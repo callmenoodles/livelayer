@@ -778,6 +778,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "23fb14cb19457329c82206317a5663005a4d404783dc74f4252769b0d5f42856"
 
 [[package]]
+name = "livelayer"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "gdk4-wayland",
+ "gtk4",
+ "gtk4-layer-shell",
+ "url",
+ "webkit6",
+]
+
+[[package]]
 name = "log"
 version = "0.4.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1133,19 +1146,6 @@ dependencies = [
  "libc",
  "soup3-sys",
  "system-deps",
-]
-
-[[package]]
-name = "webwall"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "gdk4-wayland",
- "gtk4",
- "gtk4-layer-shell",
- "url",
- "webkit6",
 ]
 
 [[package]]

@@ -1,13 +1,13 @@
 [package]
-name = "webwall"
+name = "livelayer"
 version = "0.1.0"
 authors = ["Udon"]
 edition = "2024"
-description = "A simple HTML wallpaper setter for Wayland"
+description = "Live wallpaper utility for Linux"
 readme = "README.md"
 license = "MIT"
 license-file = "LICENSE"
-keywords = ["wallpaper", "wayland"]
+keywords = ["wallpaper", "wayland", "html", "live"]
 
 [dependencies]
 anyhow = "1.0.98"
