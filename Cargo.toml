@@ -5,7 +5,6 @@ authors = ["Udon"]
 edition = "2024"
 description = "Live wallpaper utility for Linux"
 readme = "README.md"
-license = "MIT"
 license-file = "LICENSE"
 keywords = ["wallpaper", "wayland", "html", "live"]
 
