@@ -1,15 +1,18 @@
 # Live Layer
-Live Layer is a wallpaper utility allowing users to set a live wallpaper.
+Live Layer is a wallpaper utility allowing users to set an HTML or web wallpaper.
 
 > [!IMPORTANT]
-> The current version of Live Layer only supports HTML wallpapers and wlroots-based Wayland compositors.
+> The current version of Live Layer only supports wlroots-based Wayland compositors.
+
+> [!INFO]
+> Live Layer works on tiling Wayland compositors.
 
 ## Usage
-### Local Wallpaper
+### Local
 ```bash
 $ livelayer path/to/wallpaper.html
 ```
-### Remote Wallpaper
+### Remote
 ```bash
 $ livelayer https://example.com
 ```
