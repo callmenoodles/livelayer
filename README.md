@@ -4,7 +4,7 @@ Live Layer is a wallpaper utility allowing users to set an HTML or web wallpaper
 > [!IMPORTANT]
 > The current version of Live Layer only supports wlroots-based Wayland compositors.
 
-> [!INFO]
+> [!TIP]
 > Live Layer works on tiling Wayland compositors.
 
 ## Usage
